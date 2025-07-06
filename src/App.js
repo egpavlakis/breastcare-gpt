@@ -1,16 +1,13 @@
-<h1>Hello from BreastCare GPT!</h1>
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PatientDataEntryForm from './PatientDataEntryForm';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<PatientDataEntryForm />} />
-      </Routes>
-    </Router>
+    <div style={{ padding: 20, textAlign: 'center' }}>
+      <h1>BreastCare GPT — Test Page</h1>
+      <p>If you see this, React is rendering!</p>
+    </div>
   );
 }
 
 export default App;
+
